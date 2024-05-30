@@ -78,3 +78,14 @@ classroom.push(new Student('Casey', 'casey@gmail.com'));
 classroom[2].addLetterGrade(72);
 
 console.log(classroom);
+
+// Other ways to make "classes" in JS
+
+function vehicle(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+}
+
+let myCar = new vehicle('Subaru', 'Outback', '2011');
+console.log(myCar);
